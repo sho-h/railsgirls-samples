@@ -13,7 +13,7 @@ clone後それぞれのブランチに切り替えるか直接ブランチの内
 * /installまで: [20151114/matsue/install](https://github.com/sho-h/railsgirls-samples/archive/20151114/matsue/install.zip)
 * /appまで: [20151114/matsue/app](https://github.com/sho-h/railsgirls-samples/archive/20151114/matsue/app.zip)
 * /app→/herokuまで: [20151114/matsue/app2heroku](https://github.com/sho-h/railsgirls-samples/archive/20151114/matsue/app2heroku.zip)
-* /app→/mogokまで: [20151114/matsue/mogok](https://github.com/sho-h/railsgirls-samples/archive/20151114/matsue/app2mogok.zip)
+* /app→/mogokまで: [20151114/matsue/app2mogok](https://github.com/sho-h/railsgirls-samples/archive/20151114/matsue/app2mogok.zip)
 
 展開後にまだconfig/secrets.ymlを作成していない場合は以下のコマンドで作
 成してあとはガイドに従ってください。
