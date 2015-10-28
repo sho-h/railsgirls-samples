@@ -19,5 +19,5 @@ clone後それぞれのブランチに切り替えるか直接ブランチの内
 成してあとはガイドに従ってください。
 
 ```
-$ ruby -r yaml -e "puts({"development": {"secret_key_base": '`rake secret`'}, "test": {"secret_key_base": '`rake secret`'}, "production": {"secret_key_base": '<%= ENV["SECRET_KEY_BASE"] %>'}}.to_yaml)" > config/secrets.yml
+$ ruby -r yaml -e "puts({'development' => {'secret_key_base' => '`rake secret`'}, 'test' => {'secret_key_base' => '`rake secret`'}, 'production' => {'secret_key_base' => '<%= ENV[\'SECRET_KEY_BASE\'] %>'}}.to_yaml)" > config/secrets.yml
 ```
